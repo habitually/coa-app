@@ -1,0 +1,59 @@
+/**app.wxss**/
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 200rpx 0;
+  box-sizing: border-box;
+} 
+
+/* 间距 */
+.p-0 { padding: 0; }
+.p-1 { padding: 0.25rpx; }
+.p-2 { padding: 0.5rpx; }
+.p-3 { padding: 0.75rpx; }
+.p-4 { padding: 1rpx; }
+
+/* 边距 */
+.m-0 { margin: 0; }
+.m-1 { margin: 0.25rpx; }
+.m-2 { margin: 0.5rpx; }
+.m-3 { margin: 0.75rpx; }
+.m-4 { margin: 1rpx; }
+
+/* 文字大小 */
+.text-xs { font-size: 0.75rpx; }
+.text-sm { font-size: 0.875rpx; }
+.text-base { font-size: 1rpx; }
+.text-lg { font-size: 1.125rpx; }
+.text-xl { font-size: 1.25rpx; }
+
+/* 文字颜色 */
+.text-gray { color: #999; }
+.text-black { color: #000; }
+.text-white { color: #fff; }
+.text-red { color: #f00; }
+.text-green { color: #0f0; }
+.text-blue { color: #00f; }
+
+/* 背景颜色 */
+.bg-gray { background-color: #999; }
+.bg-black { background-color: #000; }
+.bg-white { background-color: #fff; }
+.bg-red { background-color: #f00; }
+.bg-green { background-color: #0f0; }
+.bg-blue { background-color: #00f; }
+
+/* 显示方式 */
+.block { display: block; }
+.inline { display: inline; }
+.inline-block { display: inline-block; }
+.flex { display: flex; }
+.grid { display: grid; }
+
+/* 对齐方式 */
+.text-left { text-align: left; }
+.text-center { text-align: center; }
+.text-right { text-align: right; }

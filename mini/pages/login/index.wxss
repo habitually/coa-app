@@ -1,0 +1,45 @@
+/* pages/login/index.wxss */
+page{
+	background: linear-gradient(180deg, rgba(13, 12, 12, 1) 0%, rgba(8, 8, 31, 0.6) 100%);
+}
+
+.login_title {
+    position: relative;
+    top: 138rpx;
+    left: 60rpx;
+}
+.login_title image {
+    top: 0;
+    left: 0;
+    position: absolute;
+    z-index: 3;
+    width: 628rpx;
+    height: 586rpx;
+}
+.login_title view {
+   
+}
+.login_button{
+    position: absolute;
+    top: 958rpx;
+    left: 276rpx;
+    width: 196rpx;
+    height: 76rpx;
+    text-align: center;
+    line-height: 76rpx;
+    background-color: #1485EE;
+    box-sizing: content-box;
+    color: #FFFFFF;
+    font-weight: 500;
+    border-radius: 12rpx;
+}
+
+.bg-img {
+		position: fixed;
+		z-index: -1;
+		top: 50%;
+		left: 0;
+		transform-origin: center;
+		transform: translateY(-50%) scale(2.4);
+		filter: blur(2px);
+}
